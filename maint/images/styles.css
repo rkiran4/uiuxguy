@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* INDEX */
+
+#Content #leftcol h2 {
+	color:#66CC00;
+	float:left;
+	margin-top:16px;
+	font-weight:400;
+}
+#Content #leftcol h1 {
+	color:#ffce16;
+	float:left;
+	margin:15px auto 0 10px;
+	font-size:24px;
+	font-weight:400;
+}
+#Content #leftcol p {
+	clear:both;
+}
+#leftcol #bottomsection {
+	width:530px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color:#282b2b;
+	height:120px;
+	margin: 60px auto 15px auto;
+	padding-left: 10px;
+	padding-top:4px;
+}
+#leftcol #bottomsection .btn {
+	float:right;
+	margin: 46px 20px auto auto;
+}
+p.more-info {
+	float:right;
+	margin-top:0;
+	padding-right:2px;
+	font:normal 12px "Oswald", Helvetica, sans-serif;
+	color:#cccccc !important;
+}
+/* Profile */
+.greenbar {
+	width:548px;
+	height:30px;
+	background-color:#9fc716;
+	margin-top:15px;
+	display:block;
+}
+.greenbar h2 {
+	font:normal 16px "Oswald", Helvetica, sans-serif;
+	text-decoration:none;
+	color:#151515 !important;
+	text-align:left;
+	margin:8px 10px !important;
+}
+#profile {
+	padding:4px 4px 4px 10px;
+	text-align:justify;
+}
+#profile h4 {
+	font:normal 14px "Oswald", Helvetica, sans-serif;
+	text-decoration:none;
+	color:#ffce16;
+	text-align:left;
+}
+#profile ul {
+	margin:0 auto 30px 30px;
+	padding: 0px;
+}
+#profile ul li {
+	list-style:square;
+	line-height:1.4em;
+}
+#main #profileleft {
+	position: absolute;
+	left:0;
+	margin-top:200px;
+}
+
+
+
+
+
+/* contact */
+
+#contact {
+	width:480px;
+	margin:20px auto 10px 0;
+}
+input[type="text"] {
+	width: 400px;
+}
+textarea {
+	width: 400px;
+	height: 120px;
+}
+label {
+	font-weight:bold;
+}
+input, textarea {
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 1px solid rgba(122, 192, 0, 0.15);
+	padding: 6px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-bottom: 5px;
+	margin-top: -10px;
+}
+input:focus, textarea:focus {
+	border: 1px solid #ff5400;
+	background-color: rgba(255, 255, 255, 1);
+}
+input[type="submit"] {
+	width: 100px;
+	margin-top:10px;
+	font:normal 14px "Oswald", Helvetica, sans-serif;
+	text-decoration:none;
+	border:1px solid #9b9b9b;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background: #dbdada;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#959595', endColorstr='#828282');
+	background: -webkit-gradient(linear, left top, left bottom, from(#959595), to(#828282));
+	background: -moz-linear-gradient(top, #959595, #828282);
+}
+input[type="submit"]:hover {
+	color:#000;
+	background: #dbdada;
+	-moz-box-shadow:0 1px 0 #686868;
+	-webkit-box-shadow:0 1px 0 #686868;
+	box-shadow:0 1px 0 #686868;
+}
+input[type="submit"]:active {
+	top: 1px;
+}
+#main #contactleft {
+	position: absolute;
+	left:0;
+	top:480px;
+}
+#main #contactright {
+	position: absolute;
+	top:510px;
+	right: 0;
+}
+/* - - - *PORTFOLIO - - - */
+h4{ color: #9fc716; font-weight: 400; font-size: 14px; }
+h4 span{ color: #FC0; margin-right: 4px;}
+#left #mobi {
+	margin-top:1060px;
+	clear:both;
+}
+.portfolio-bar {
+	width:780px;
+	height:30px;
+	background-color:#9fc716;
+	margin-top:15px;
+	display:block;
+}
+.portfolio-bar h2 {
+	font:normal 16px "Oswald", Helvetica, sans-serif;
+	text-decoration:none;
+	color:#151515 !important;
+	text-align:left;
+	padding:8px 10px !important;
+}
+.portfolio-project {
+	float:left;
+	width: 280px;
+	margin-left: 18px;
+	padding:0;
+}
+.portfolio-promo {
+	float:left;
+	width:355px;
+	min-height:280px;
+	margin:5px;
+	padding:0;
+	background:#242424;
+	border: solid 1px #373737;
+	padding:10px;
+}
+.portfolio-project figure {
+	border:0;
+	margin-left:10px;
+}
+.portfolio-project figure figcaption {
+	text-align:center;
+}
+.portfolio-list{
+	width: 90%;
+	margin: 20px auto;
+}
+.portfolio-list li {
+	list-style-type:disc;
+	margin-left:30px;
+	text-align:left;
+}
+
+
+.workContainer {
+	width: 480px;
+	height: 412px;
+	position: relative;
+	top: 0;
+	float: left;
+}
+.workContainer .imac {
+	width: 479px;
+	height: 412px;
+	position: relative;
+	left:0;
+	top: 0;
+	background: url(imac.png) 0 1px transparent;
+}
+.workContainer .reflection {
+	width: 131px;
+	height: 124px;
+	position: absolute;
+	left: 230px;
+	top: 1px;
+	background: url(mac_screenreclection.png) 0 0 no-repeat transparent;
+	z-index: 100;
+}
+
+.workContainer .work {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 20px;
+	width: 439px;
+	height: 245px;
+	overflow: hidden;
+}
+.workContainer #prev a, .workContainer #next a {
+	position: absolute;
+	top: 20px;
+	width: 80px;
+	height: 245px;
+	display: block;
+	background: url(slider_buttons.png) 0 0 transparent no-repeat;
+	z-index: 100;
+	outline: none;
+}
+.workContainer #prev a {
+	left: 0px;
+	background-position: 0px 107px
+}
+.workContainer #next a {
+	right: 0px;
+	background-position: -51px 107px
+}
+
+
+/* - - - - - - */
+
+.workContainer1 {
+	width: 480px;
+	height: 412px;
+	position: relative;
+	top: 0;
+	float: left;
+}
+.workContainer1 .imac1 {
+	width: 479px;
+	height: 412px;
+	position: relative;
+	left:0;
+	top: 0;
+	background: url(imac.png) 0 1px transparent;
+}
+.workContainer1 .reflection1 {
+	width: 131px;
+	height: 124px;
+	position: absolute;
+	left: 230px;
+	top: 1px;
+	background: url(mac_screenreclection.png) 0 0 no-repeat transparent;
+	z-index: 100;
+}
+
+.workContainer1 .work1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	width: 439px;
+	height: 245px;
+	overflow: hidden;
+}
+.workContainer1 #prev1 a, .workContainer1 #next1 a {
+	position: absolute;
+	top: 20px;
+	width: 80px;
+	height: 245px;
+	display: block;
+	background: url(slider_buttons.png) 0 0 transparent no-repeat;
+	z-index: 100;
+	outline: none;
+}
+.workContainer1 #prev1 a {
+	left: 0px;
+	background-position: 0px 107px
+}
+.workContainer1 #next1 a {
+	right: 0px;
+	background-position: -51px 107px
+}
